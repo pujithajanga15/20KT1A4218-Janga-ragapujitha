@@ -1,0 +1,483 @@
+INFO:root:Test notification sent successfully.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coingecko.com:443
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin price: $65660
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ethereum price: $3279.5
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved cardano price: $0.567745
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved litecoin price: $98.04
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ripple price: $0.569372
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin-cash price: $611.58
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved binancecoin price: $576.84
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved tron price: $0.11735
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved eos price: $0.949641
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin price: $65660
+INFO:root:Price difference for bitcoin: $0
+INFO:root:Percentage change for bitcoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=ethereum&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=ethereum&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ethereum price: $3281.67
+INFO:root:Price difference for ethereum: $2.1700000000000728
+INFO:root:Percentage change for ethereum: 0.06616862326574395%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved cardano price: $0.567966
+INFO:root:Price difference for cardano: $0.0002209999999999157
+INFO:root:Percentage change for cardano: 0.03892592625208777%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved litecoin price: $98.04
+INFO:root:Price difference for litecoin: $0.0
+INFO:root:Percentage change for litecoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ripple price: $0.569372
+INFO:root:Price difference for ripple: $0.0
+INFO:root:Percentage change for ripple: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin-cash price: $611.58
+INFO:root:Price difference for bitcoin-cash: $0.0
+INFO:root:Percentage change for bitcoin-cash: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved binancecoin price: $576.9
+INFO:root:Price difference for binancecoin: $0.05999999999994543
+INFO:root:Percentage change for binancecoin: 0.010401497815675998%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=tron&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=tron&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved tron price: $0.117431
+INFO:root:Price difference for tron: $8.099999999999774e-05
+INFO:root:Percentage change for tron: 0.06902428632296356%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved eos price: $0.949641
+INFO:root:Price difference for eos: $0.0
+INFO:root:Percentage change for eos: 0.0%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin price: $65698
+INFO:root:Price difference for bitcoin: $38
+INFO:root:Percentage change for bitcoin: 0.05787389582698751%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ethereum price: $3281.67
+INFO:root:Price difference for ethereum: $0.0
+INFO:root:Percentage change for ethereum: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=cardano&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=cardano&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved cardano price: $0.567966
+INFO:root:Price difference for cardano: $0.0
+INFO:root:Percentage change for cardano: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved litecoin price: $98.04
+INFO:root:Price difference for litecoin: $0.0
+INFO:root:Percentage change for litecoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ripple price: $0.568767
+INFO:root:Price difference for ripple: $-0.0006049999999999667
+INFO:root:Percentage change for ripple: -0.1062574204562161%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin-cash price: $611.58
+INFO:root:Price difference for bitcoin-cash: $0.0
+INFO:root:Percentage change for bitcoin-cash: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved binancecoin price: $576.9
+INFO:root:Price difference for binancecoin: $0.0
+INFO:root:Percentage change for binancecoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved tron price: $0.117431
+INFO:root:Price difference for tron: $0.0
+INFO:root:Percentage change for tron: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved eos price: $0.949641
+INFO:root:Price difference for eos: $0.0
+INFO:root:Percentage change for eos: 0.0%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=bitcoin&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=bitcoin&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin price: $65698
+INFO:root:Price difference for bitcoin: $0
+INFO:root:Percentage change for bitcoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ethereum price: $3281.67
+INFO:root:Price difference for ethereum: $0.0
+INFO:root:Percentage change for ethereum: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved cardano price: $0.566873
+INFO:root:Price difference for cardano: $-0.0010930000000000106
+INFO:root:Percentage change for cardano: -0.19244109682622035%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved litecoin price: $98.14
+INFO:root:Price difference for litecoin: $0.09999999999999432
+INFO:root:Percentage change for litecoin: 0.10199918400652214%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=ripple&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=ripple&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ripple price: $0.568767
+INFO:root:Price difference for ripple: $0.0
+INFO:root:Percentage change for ripple: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin-cash price: $611.11
+INFO:root:Price difference for bitcoin-cash: $-0.4700000000000273
+INFO:root:Percentage change for bitcoin-cash: -0.0768501259034022%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved binancecoin price: $577.04
+INFO:root:Price difference for binancecoin: $0.13999999999998636
+INFO:root:Percentage change for binancecoin: 0.024267637372159187%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved tron price: $0.117289
+INFO:root:Price difference for tron: $-0.00014199999999998936
+INFO:root:Percentage change for tron: -0.12092207338776759%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved eos price: $0.949814
+INFO:root:Price difference for eos: $0.00017300000000008975
+INFO:root:Percentage change for eos: 0.01821741057937576%
+INFO:root:Notification sent successfully.
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=bitcoin&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=bitcoin&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin price: $65688
+INFO:root:Price difference for bitcoin: $-10
+INFO:root:Percentage change for bitcoin: -0.01522116350573838%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ethereum price: $3279.37
+INFO:root:Price difference for ethereum: $-2.300000000000182
+INFO:root:Percentage change for ethereum: -0.07008626705306084%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved cardano price: $0.566873
+INFO:root:Price difference for cardano: $0.0
+INFO:root:Percentage change for cardano: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved litecoin price: $98.14
+INFO:root:Price difference for litecoin: $0.0
+INFO:root:Percentage change for litecoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ripple price: $0.568767
+INFO:root:Price difference for ripple: $0.0
+INFO:root:Percentage change for ripple: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin-cash price: $611.11
+INFO:root:Price difference for bitcoin-cash: $0.0
+INFO:root:Percentage change for bitcoin-cash: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=binancecoin&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=binancecoin&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved binancecoin price: $577.04
+INFO:root:Price difference for binancecoin: $0.0
+INFO:root:Percentage change for binancecoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved tron price: $0.117289
+INFO:root:Price difference for tron: $0.0
+INFO:root:Percentage change for tron: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved eos price: $0.949814
+INFO:root:Price difference for eos: $0.0
+INFO:root:Percentage change for eos: 0.0%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin price: $65688
+INFO:root:Price difference for bitcoin: $0
+INFO:root:Percentage change for bitcoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ethereum price: $3279.37
+INFO:root:Price difference for ethereum: $0.0
+INFO:root:Percentage change for ethereum: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=cardano&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=cardano&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved cardano price: $0.566873
+INFO:root:Price difference for cardano: $0.0
+INFO:root:Percentage change for cardano: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved litecoin price: $98.14
+INFO:root:Price difference for litecoin: $0.0
+INFO:root:Percentage change for litecoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=ripple&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=ripple&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ripple price: $0.567486
+INFO:root:Price difference for ripple: $-0.0012809999999999766
+INFO:root:Percentage change for ripple: -0.22522403725954154%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin-cash price: $611.11
+INFO:root:Price difference for bitcoin-cash: $0.0
+INFO:root:Percentage change for bitcoin-cash: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved binancecoin price: $577.04
+INFO:root:Price difference for binancecoin: $0.0
+INFO:root:Percentage change for binancecoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved tron price: $0.117289
+INFO:root:Price difference for tron: $0.0
+INFO:root:Percentage change for tron: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=eos&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=eos&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved eos price: $0.947035
+INFO:root:Price difference for eos: $-0.002779000000000087
+INFO:root:Percentage change for eos: -0.29258360057864874%
+INFO:root:Notification sent successfully.
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin price: $65492
+INFO:root:Price difference for bitcoin: $-196
+INFO:root:Percentage change for bitcoin: -0.29838022165387895%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ethereum price: $3268.63
+INFO:root:Price difference for ethereum: $-10.739999999999782
+INFO:root:Percentage change for ethereum: -0.32750192872410805%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved cardano price: $0.565557
+INFO:root:Price difference for cardano: $-0.0013159999999999838
+INFO:root:Percentage change for cardano: -0.23215076392771997%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=litecoin&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=litecoin&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved litecoin price: $97.85
+INFO:root:Price difference for litecoin: $-0.29000000000000625
+INFO:root:Percentage change for litecoin: -0.2954962298756942%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ripple price: $0.567486
+INFO:root:Price difference for ripple: $0.0
+INFO:root:Percentage change for ripple: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin-cash price: $611.87
+INFO:root:Price difference for bitcoin-cash: $0.7599999999999909
+INFO:root:Percentage change for bitcoin-cash: 0.12436386247974845%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved binancecoin price: $576.38
+INFO:root:Price difference for binancecoin: $-0.6599999999999682
+INFO:root:Percentage change for binancecoin: -0.11437681963121589%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved tron price: $0.117211
+INFO:root:Price difference for tron: $-7.800000000000862e-05
+INFO:root:Percentage change for tron: -0.06650240005457342%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=eos&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=eos&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved eos price: $0.947035
+INFO:root:Price difference for eos: $0.0
+INFO:root:Percentage change for eos: 0.0%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin price: $65492
+INFO:root:Price difference for bitcoin: $0
+INFO:root:Percentage change for bitcoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ethereum price: $3268.63
+INFO:root:Price difference for ethereum: $0.0
+INFO:root:Percentage change for ethereum: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved cardano price: $0.565557
+INFO:root:Price difference for cardano: $0.0
+INFO:root:Percentage change for cardano: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=litecoin&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=litecoin&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved litecoin price: $97.85
+INFO:root:Price difference for litecoin: $0.0
+INFO:root:Percentage change for litecoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ripple price: $0.567486
+INFO:root:Price difference for ripple: $0.0
+INFO:root:Percentage change for ripple: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin-cash price: $611.87
+INFO:root:Price difference for bitcoin-cash: $0.0
+INFO:root:Percentage change for bitcoin-cash: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved binancecoin price: $576.38
+INFO:root:Price difference for binancecoin: $0.0
+INFO:root:Percentage change for binancecoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved tron price: $0.117211
+INFO:root:Price difference for tron: $0.0
+INFO:root:Percentage change for tron: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved eos price: $0.947035
+INFO:root:Price difference for eos: $0.0
+INFO:root:Percentage change for eos: 0.0%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=bitcoin&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=bitcoin&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=bitcoin&vs_currencies=usd'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=bitcoin&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin price: $65438
+INFO:root:Price difference for bitcoin: $-54
+INFO:root:Percentage change for bitcoin: -0.0824528186648751%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ethereum price: $3264.43
+INFO:root:Price difference for ethereum: $-4.200000000000273
+INFO:root:Percentage change for ethereum: -0.12849420093434474%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved cardano price: $0.565359
+INFO:root:Price difference for cardano: $-0.00019800000000003148
+INFO:root:Percentage change for cardano: -0.035009733766893786%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved litecoin price: $97.85
+INFO:root:Price difference for litecoin: $0.0
+INFO:root:Percentage change for litecoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=ripple&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=ripple&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ripple price: $0.566767
+INFO:root:Price difference for ripple: $-0.0007190000000000252
+INFO:root:Percentage change for ripple: -0.12669916086036045%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin-cash price: $611.15
+INFO:root:Price difference for bitcoin-cash: $-0.7200000000000273
+INFO:root:Percentage change for bitcoin-cash: -0.11767205452138972%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved binancecoin price: $576.37
+INFO:root:Price difference for binancecoin: $-0.009999999999990905
+INFO:root:Percentage change for binancecoin: -0.0017349665151446796%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=tron&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=tron&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved tron price: $0.117171
+INFO:root:Price difference for tron: $-3.999999999999837e-05
+INFO:root:Percentage change for tron: -0.03412648983457045%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved eos price: $0.942066
+INFO:root:Price difference for eos: $-0.004969000000000001
+INFO:root:Percentage change for eos: -0.5246902173626109%
+INFO:root:Notification sent successfully.
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=bitcoin&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=bitcoin&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin price: $65438
+INFO:root:Price difference for bitcoin: $0
+INFO:root:Percentage change for bitcoin: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=ethereum&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=ethereum&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ethereum price: $3257.02
+INFO:root:Price difference for ethereum: $-7.4099999999998545
+INFO:root:Percentage change for ethereum: -0.22699215483253907%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=cardano&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved cardano price: $0.565359
+INFO:root:Price difference for cardano: $0.0
+INFO:root:Percentage change for cardano: 0.0%
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=litecoin&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=litecoin&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=litecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved litecoin price: $97.55
+INFO:root:Price difference for litecoin: $-0.29999999999999716
+INFO:root:Percentage change for litecoin: -0.3065917220235025%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=ripple&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=ripple&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=ripple&vs_currencies=usd'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=ripple&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ripple&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved ripple price: $0.563955
+INFO:root:Price difference for ripple: $-0.0028120000000000367
+INFO:root:Percentage change for ripple: -0.4961474468344199%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin-cash price: $610.12
+INFO:root:Price difference for bitcoin-cash: $-1.0299999999999727
+INFO:root:Percentage change for bitcoin-cash: -0.1685347296081114%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=binancecoin&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=binancecoin&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=binancecoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved binancecoin price: $575.11
+INFO:root:Price difference for binancecoin: $-1.259999999999991
+INFO:root:Percentage change for binancecoin: -0.2186095737113297%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=tron&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=tron&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=tron&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved tron price: $0.116835
+INFO:root:Price difference for tron: $-0.00033600000000000296
+INFO:root:Percentage change for tron: -0.28676037586092373%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=eos&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Retry: /api/v3/simple/price?ids=eos&vs_currencies=usd
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=eos&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved eos price: $0.939588
+INFO:root:Price difference for eos: $-0.0024779999999999802
+INFO:root:Percentage change for eos: -0.263038895364017%
+INFO:root:Notification sent successfully.
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=bitcoin&vs_currencies=usd HTTP/1.1" 200 None
+INFO:root:Retrieved bitcoin price: $65244
+INFO:root:Price difference for bitcoin: $-194
+INFO:root:Percentage change for bitcoin: -0.29646382835661234%
+INFO:root:Notification sent successfully.
+DEBUG:urllib3.connectionpool:https://api.coingecko.com:443 "GET /api/v3/simple/price?ids=ethereum&vs_currencies=usd HTTP/1.1" 429 187
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/v3/simple/price?ids=ethereum&vs_currencies=usd'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
